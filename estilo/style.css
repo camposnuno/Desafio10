@@ -182,6 +182,40 @@ main img.pequena {  /*Uma Class dentro do main na img */
 
 }
 
+.video-container  { /* Criar a Class .video-container*/
+    position: relative;
+    margin-bottom: 20px;
+   
+}
+
+.video-container iframe {  
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+/*
+
+TIREI ESTE PARTE PORQUE: funciona bem só com o de cima. 
+    Nao percebi pq? É suposto?
+[CODIGO]
+
+
+.video {
+    aspect-ratio: 16 / 9 ;
+    width: 100%;
+
+}
+
+*/
+
+.video {
+    aspect-ratio: 16 / 9 ;
+    width: 100%;
+
+}
+
 main  aside {
     background-color: var(--cor2);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.378);
@@ -191,7 +225,7 @@ main  aside {
 
 }
 
-main aside  h2 {
+aside  h2 {
         font: var(--font-padrao);
         color: white;
         font-size: 1.4em;
